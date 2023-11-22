@@ -1,0 +1,43 @@
+/* Dropdown.css */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-header {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #000; /* 黑色背景 */
+  color: #fff; /* 白色文字 */
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #000; /* 黑色背景 */
+  color: #fff; /* 白色文字 */
+  border: 1px solid #ccc;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-content a,
+.dropdown-content button {
+  padding: 10px;
+  text-decoration: none;
+  color: #fff; /* 白色文字 */
+  border-bottom: 1px solid #ccc;
+}
+
+.dropdown-content a.active,
+.dropdown-content a:hover,
+.dropdown-content button:hover {
+  background-color: #000; /* 保持黑色背景 */
+  border-left: 3px solid #00f; /* 蓝色竖条 */
+}

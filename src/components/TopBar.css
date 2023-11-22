@@ -1,0 +1,22 @@
+/* TopBar.css */
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black; /* 黑色背景 */
+    padding: 10px;
+  }
+  
+  .left-section,
+  .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-section {
+    margin-left: auto; /* 将右侧部分推到最右边 */
+  }
+  
+  /* Add any additional styling as needed */
+  

@@ -1,0 +1,68 @@
+/* Dropdown2.css */
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px; /* Add some margin between dropdowns */
+  }
+  
+  .dropdown2-header {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+  }
+  
+  .dropdown2-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f2f2f2; /* Light gray background */
+    min-height: 100px; /* Minimum height of 100px */
+    width: calc(100vw - 1px); /* Adjusted width to prevent horizontal scrollbar */
+    color: #000; /* Black text */
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Set height to 100% */
+  }
+  
+  .content-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column-reverse; /* Reverse the vertical order */
+    align-items: center;
+    position: relative;
+    height: 100%; /* Set height to 100% */
+  }
+  
+  .dropdown-text {
+    margin-bottom: 10px; /* Add margin for spacing */
+  }
+  
+  .dropdown-logo {
+    max-width: 100%; /* Ensure the image does not exceed its container width */
+  }
+  
+  .vertical-line {
+    width: 1px;
+    height: 100%;
+    background-color: #000; /* Black color */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .close-btn {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #ccc;
+    color: #000;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  

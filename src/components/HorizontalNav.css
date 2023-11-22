@@ -1,0 +1,22 @@
+/* HorizontalNav.css */
+
+.horizontal-nav {
+    display: flex;
+  }
+  
+  .nav-item {
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    flex-grow: 1; /* 占据可用空间 */
+    text-align: center;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .black {
+    background-color: black;
+  }
+  
